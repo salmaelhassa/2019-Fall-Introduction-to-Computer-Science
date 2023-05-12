@@ -1,0 +1,10 @@
+#Name: Salma Elhassa
+#Email: salma.elhassa52@myhunter.cuny.edu
+#Date: Novemeber 25, 2019
+
+ADDI $s0, $zero, 2 
+ADDI $s1, $zero, 20 
+AGAIN: ADDI $s0, $s0, 2
+BEQ $s0, $s1, DONE
+J AGAIN
+DONE:  
